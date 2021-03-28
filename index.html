@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Spelling Bee </title>
+
+    <link href="https://www.csantantoniabat.com/templates/lt_school/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+    <link href="https://www.csantantoniabat.com/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-grey">
+      <img alt="Logo Sant Antoni Abat" style="width: 15%" src="https://www.csantantoniabat.com/images/logohorizontal2.png">
+    </nav>
+
+    <main role="main">
+
+      <!-- Title Container -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">SPELLING BEE <img alt="Logo spelling bee" style="width: 22%" src="https://i.pinimg.com/originals/14/f8/42/14f842098f484101df01d856fbe5fc96.png"/></h1>
+          <h3 class="display-4">3rd and 4th graders (group 2)</h3>
+        </div>
+        <div></div>
+      </div>
+
+      <!-- Container -->
+      <div class="container">
+        <!-- Row -->
+        <div class="row">
+          <div class="col-md-3">
+            <div id="column1" class="list-group"></div>
+          </div>
+          <div class="col-md-3">
+            <div id="column2" class="list-group"></div>
+          </div>
+          <div class="col-md-3">
+            <div id="column3" class="list-group"></div>
+          </div>
+          <div class="col-md-3">
+            <div id="column4" class="list-group"></div>
+          </div>
+        </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+
+    </main>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <script>
+        const column1 = [{key:'1. ', value: 'angry'},{key:'2. ', value: 'animal shelter'},{key:'3. ', value: 'anniversary'},{key:'4. ', value: 'ash'},{key:'5. ', value: 'assignment'},{key:'6. ', value: 'astronaut'},{key:'7. ', value: 'backache'},{key:'8. ', value: 'bathing suit'},{key:'9. ', value: 'bear'},{key:'10. ', value: 'began'},{key:'11. ', value: 'better'},{key:'12. ', value: 'blacksmith'},{key:'13. ', value: 'blink'},{key:'14. ', value: 'blushing'},{key:'15. ', value: 'brag'},{key:'16. ', value: 'breakfast'},{key:'17. ', value: 'burrow'},{key:'18. ', value: 'buy'},{key:'19. ', value: 'called'},{key:'20. ', value: 'capsule'},{key:'21. ', value: 'card'},{key:'22. ', value: 'cellular'},{key:'23. ', value: 'chain'},{key:'24. ', value: 'children'},{key:'25. ', value: 'church'},{key:'26. ', value: 'clutch'},{key:'27. ', value: 'corner'},{key:'28. ', value: 'cry'},{key:'29. ', value: 'cunning'},{key:'30. ', value: 'cupboard'},{key:'31. ', value: 'curious'},{key:'32. ', value: 'curly'},{key:'33. ', value: 'daughter'},{key:'34. ', value: 'dessert'},{key:'35. ', value: 'dialogue'},{key:'36. ', value: 'dining room'},{key:'37. ', value: 'ears'},{key:'38. ', value: 'eclipse'}]
+        const column2 = [{key:'39. ', value: 'eighth'},{key:'40. ', value: 'eleventh'},{key:'41. ', value: 'erupt'},{key:'42. ', value: 'esteem'},{key:'43. ', value: 'every'},{key:'44. ', value: 'exclaim'},{key:'45. ', value: 'fizz'},{key:'46. ', value: 'float'},{key:'47. ', value: 'Florence'},{key:'48. ', value: 'foggy'},{key:'49. ', value: 'following'},{key:'50. ', value: 'fossils'},{key:'51. ', value: 'free time'},{key:'52. ', value: 'growl'},{key:'53. ', value: 'hatch'},{key:'54. ', value: 'headache'},{key:'55. ', value: 'heels'},{key:'56. ', value: 'hiccup'},{key:'57. ', value: 'hill'},{key:'58. ', value: 'hint'},{key:'59. ', value: 'hose'},{key:'60. ', value: 'hounds'},{key:'61. ', value: 'iced tea'},{key:'62. ', value: 'imagine'},{key:'63. ', value: 'information'},{key:'64. ', value: 'inhale'},{key:'65. ', value: 'inside'},{key:'66. ', value: 'invite'},{key:'67. ', value: 'involuntary'},{key:'68. ', value: 'jerk'},{key:'69. ', value: 'kilometers'},{key:'70. ', value: 'kitten'},{key:'71. ', value: 'knit'},{key:'72. ', value: 'lion'},{key:'73. ', value: 'looked'},{key:'74. ', value: 'lowercase'},{key:'75. ', value: 'mayonnaise'},{key:'76. ', value: 'meal'}]
+        const column3 = [{key:'77. ', value: 'menu'},{key:'78. ', value: 'moisture'},{key:'79. ', value: 'money'},{key:'80. ', value: 'motorcycle'},{key:'81. ', value: 'mucus'},{key:'82. ', value: 'near'},{key:'83. ', value: 'necessary'},{key:'84. ', value: 'neck'},{key:'85. ', value: 'next'},{key:'86. ', value: 'nobody'},{key:'87. ', value: 'notice'},{key:'88. ', value: 'nurse'},{key:'89. ', value: 'oatmeal'},{key:'90. ', value: 'obligation'},{key:'91. ', value: 'occasion'},{key:'92. ', value: 'often'},{key:'93. ', value: 'operator'},{key:'94. ', value: 'package'},{key:'95. ', value: 'palace'},{key:'96. ', value: 'photograph'},{key:'97. ', value: 'peek'},{key:'98. ', value: 'pie'},{key:'99. ', value: 'popcorn'},{key:'100. ', value: 'post'},{key:'101. ', value: 'practicing'},{key:'102. ', value: 'predict'},{key:'103. ', value: 'quickly'},{key:'104. ', value: 'raincoat'},{key:'105. ', value: 'recipe'},{key:'106. ', value: 'registration form'},{key:'107. ', value: 'remain'},{key:'108. ', value: 'restaurant'},{key:'109. ', value: 'rock'},{key:'110. ', value: 'rodent'},{key:'111. ', value: 'rumor'},{key:'112. ', value: 'runner'},{key:'113. ', value: 'salad'},{key:'114. ', value: 'scarf'}]
+        const column4 = [{key:'115. ', value: 'seashore'}, {key:'116. ', value: 'season'},{key:'117. ', value: 'seatbelt'},{key:'118. ', value: 'seize'},{key:'119. ', value: 'sheepdog'},{key:'120. ', value: 'shopping'},{key:'121. ', value: 'slices'},{key:'122. ', value: 'slowly'},{key:'123. ', value: 'slept'},{key:'124. ', value: 'somersault'},{key:'125. ', value: 'startle'},{key:'126. ', value: 'stomachache'},{key:'127. ', value: 'store'},{key:'128. ', value: 'story'},{key:'129. ', value: 'street'},{key:'130. ', value: 'surface'},{key:'131. ', value: 'sweater'},{key:'132. ', value: 'tallest'},{key:'133. ', value: 'tea'},{key:'134. ', value: 'ten'},{key:'135. ', value: 'terrible'},{key:'136. ', value: 'thirsty'},{key:'137. ', value: 'tickle'},{key:'138. ', value: 'towel'},{key:'139. ', value: 'train'},{key:'140. ', value: 'triumph'},{key:'141. ', value: 'tuna'},{key:'142. ', value: 'upstairs'},{key:'143. ', value: 'useful'},{key:'144. ', value: 'videogame'},{key:'145. ', value: 'visor'},{key:'146. ', value: 'wake up'},{key:'147. ', value: 'weekend'},{key:'148. ', value: 'whiskers'},{key:'149. ', value: 'white'},{key:'150. ', value: 'wretched'}]
+
+        let audio;
+
+        function play(value) {
+            if (audio === undefined || audio.ended) {
+                audio = new Audio('https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=' + value);
+                audio.play();
+            }
+        }
+
+        $(document).ready(function(){
+            $.each(column1, function(index, object){
+                //console.log(object['key']);
+                //$("#column1").append('<a class="list-group-item list-group-item-action" href="#" role="button" onclick="play(\'' + object['value'] + '\')">'+ object['key'] + object['value'] +'<span class="badge"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/></svg></span></a>');
+                $("#column1").append('<li class="btn list-group-item list-group-item-action d-flex justify-content-between align-items-center" onclick="play(\'' + object['key'] + object['value'] + '\')">'+ object['key'] + object['value'] +'<span class="badge"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/></svg></span></li>');
+            });
+            $.each(column2, function(index, object){
+                $("#column2").append('<li class="btn list-group-item list-group-item-action d-flex justify-content-between align-items-center" onclick="play(\'' + object['key'] + object['value'] + '\')">'+ object['key'] + object['value'] +'<span class="badge"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/></svg></span></li>');
+            });
+            $.each(column3, function(index, object){
+                $("#column3").append('<li class="btn list-group-item list-group-item-action d-flex justify-content-between align-items-center" onclick="play(\'' + object['key'] + object['value'] + '\')">'+ object['key'] + object['value'] +'<span class="badge"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/></svg></span></li>');
+            });
+            $.each(column4, function(index, object){
+                $("#column4").append('<li class="btn list-group-item list-group-item-action d-flex justify-content-between align-items-center" onclick="play(\'' + object['key'] + object['value'] + '\')">'+ object['key'] + object['value'] +'<span class="badge"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/></svg></span></li>');
+            });
+        });
+    </script>
+  </body>
+</html>
